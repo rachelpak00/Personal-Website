@@ -1,0 +1,48 @@
+* {
+    background-color: lavenderblush;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+#links {
+    text-align: center;
+    font-size: larger;
+    
+}
+a {
+    text-decoration: none;
+    color:darkslateblue
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+.school {
+    font-size: larger;
+}
+.degree {
+    font-size: large;
+    font-style: italic;
+}
+
+#education {
+    float: right;
+}
+
+#employment {
+    text-align: left;
+    float: left;
+}

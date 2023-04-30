@@ -1,3 +1,47 @@
 * {
     background-color: lavenderblush;
 }
+h1 {
+    font-size: 3rem;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+#links {
+    text-align: center;
+    font-size: x-large;
+    
+}
+a {
+    text-decoration: none;
+    color:darkslateblue
+}
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: lighter;
+    font-size: larger;
+}
+
+h2 span {
+    background-color: #f0fcff;
+}
+
+p {
+    background-color: white;
+}
+
+#NY {
+    width: 555px
+}
+
+#London {
+    width: 500px
+}
