@@ -1,26 +1,27 @@
 * {
-    background-color: lavenderblush;
-    text-align: center;
+    background-color: #fadde1;
 }
 h1 {
+    color: #590d22;
     font-size: 3rem;
-    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 h3 {
+    color: #590d22;
     font-style: italic;
     text-align: center;
 }
 
 #links {
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     
 }
 a {
     text-decoration: none;
-    color:darkslateblue
+    color:#ff5d8f
 }
 a:hover {
     text-decoration: underline;
@@ -30,19 +31,27 @@ h2 {
     font-size: xx-large;
     font-weight: 600;
 }
-.school {
+
+#info {
+    background-color: #fff0f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.knowledge {
+    font-family: sans-serif;
+    flex-direction: column;
+    border: 2px solid #590d22;
+    margin: 2%;
+    padding: 1%; 
+    flex: 50%;
+}
+ul {
     font-size: larger;
 }
-.degree {
-    font-size: large;
+
+p{
     font-style: italic;
-}
-
-#education {
-    float: right;
-}
-
-#employment {
-    text-align: left;
-    float: left;
 }
