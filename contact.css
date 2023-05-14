@@ -1,0 +1,75 @@
+* {
+    background-color: #ffe8d6;
+}
+h1 {
+    color: #7f5539;
+    font-size: 3rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+h3 {
+    color: #cb997e;
+    font-style: italic;
+    text-align: center;
+}
+
+#links {
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+a {
+    text-decoration: none;
+    color:#cb997e;
+    margin: 1%;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    color: #7f5539;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+input {
+    background-color: #f2e9e4;
+}
+
+input[type=text] {
+    width: 25%;
+    height: 2rem;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    font-size: medium;
+}
+
+input[type=email] {
+    width: 40%;
+    height: 2rem;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    font-size: medium;
+}
+
+input[type=message] {
+    width: 50%;
+    height: 10rem;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    font-size: medium;
+}
+
+button[type=submit] {
+    background-color: #f2e9e4;
+    color: #7f5539;
+    font-size: medium;
+}
+
